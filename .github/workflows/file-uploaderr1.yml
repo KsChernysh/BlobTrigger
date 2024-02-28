@@ -42,5 +42,5 @@ jobs:
       uses: Azure/functions-action@v1
       with:
         app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
-        publish-profile: ${{ secrets.file_uploaderr_9F6E }}
+        publish-profile: ${{ secrets.file_uploaderr_3581 }}
         package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
